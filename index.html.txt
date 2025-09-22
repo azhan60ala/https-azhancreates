@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Azhan — Portfolio & Services | Azhan Creates</title>
+  <meta name="description" content="Azhan — Graphic Designer, Video Editor & Frontend Creator. Portfolio, services and contact." />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root{--bg:#0b1020;--card:#0f1724;--muted:#9aa6b2;--accent:#06b6d4;--glass:rgba(255,255,255,0.03)}
+    *{box-sizing:border-box}html,body{height:100%}body{font-family:Poppins,system-ui,Segoe UI,Roboto,Arial;color:#e8f0f8;margin:0;background:linear-gradient(180deg,#071226 0%, #061626 70%);-webkit-font-smoothing:antialiased}
+    .wrap{max-width:1100px;margin:28px auto;padding:28px}
+    header{display:flex;align-items:center;gap:18px}
+    .logo{width:84px;height:84px;border-radius:14px;background:linear-gradient(135deg,var(--accent),#7c3aed);display:flex;align-items:center;justify-content:center;font-weight:800;font-size:28px;color:#021;box-shadow:0 8px 30px rgba(2,6,23,0.6)}
+    h1{margin:0;font-size:28px}
+    .tag{color:var(--muted);margin-top:6px}
+
+    nav{margin-left:auto}
+    nav a{color:var(--muted);text-decoration:none;margin-left:14px;font-weight:600}
+
+    .hero{display:grid;grid-template-columns:1fr 360px;gap:22px;margin-top:26px}
+    .card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));border-radius:12px;padding:20px;border:1px solid rgba(255,255,255,0.03);box-shadow:0 8px 40px rgba(2,6,23,0.6)}
+
+    .intro h2{margin-top:0}
+    .cta{display:inline-block;margin-top:14px;padding:10px 14px;border-radius:10px;background:linear-gradient(90deg,var(--accent),#7c3aed);color:#001;font-weight:800;text-decoration:none}
+
+    .services{display:flex;flex-wrap:wrap;gap:12px;margin-top:12px}
+    .service{flex:1 1 220px;background:var(--card);padding:14px;border-radius:10px;border:1px solid rgba(255,255,255,0.02)}
+    .service h4{margin:0 0 6px 0}
+    .muted{color:var(--muted);font-size:14px}
+
+    .portfolio-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:14px}
+    .project{border-radius:10px;overflow:hidden;background:linear-gradient(180deg, rgba(255,255,255,0.01), rgba(255,255,255,0.005));border:1px solid rgba(255,255,255,0.02)}
+    .project img{width:100%;display:block}
+    .project .p-body{padding:10px}
+
+    .contact{display:flex;gap:16px;align-items:center}
+    .social a{margin-right:8px;color:var(--accent);text-decoration:none;font-weight:700}
+
+    footer{margin-top:28px;color:var(--muted);text-align:center;font-size:13px}
+
+    @media (max-width:980px){.hero{grid-template-columns:1fr}.portfolio-grid{grid-template-columns:repeat(2,1fr)}}
+    @media (max-width:600px){.portfolio-grid{grid-template-columns:1fr}.logo{width:64px;height:64px;font-size:22px}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">AC</div>
+      <div>
+        <h1>Azhan — <span style="font-weight:600">Azhan Creates</span></h1>
+        <div class="tag">Graphic Designer • Video Editor • Frontend Creator</div>
+      </div>
+      <nav>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="card intro">
+        <h2>Hello, I’m <strong>Azhan</strong></h2>
+        <p class="muted">I turn ideas into eye-catching visuals and short-form videos that grab attention and convert viewers into followers and customers. I blend strong design fundamentals with practical production skills to deliver visuals that perform.</p>
+
+        <h3 style="margin-top:16px">What I do</h3>
+        <div class="services">
+          <div class="service">
+            <h4>Graphic Design</h4>
+            <div class="muted">Branding, social posts, thumbnails, posters, and UI assets.</div>
+          </div>
+          <div class="service">
+            <h4>Video Editing</h4>
+            <div class="muted">YouTube Shorts, edits, transitions, color grading, and captions.</div>
+          </div>
+          <div class="service">
+            <h4>UI / Web</h4>
+            <div class="muted">Landing pages, portfolio sites, simple React components.</div>
+          </div>
+          <div class="service">
+            <h4>Social Growth</h4>
+            <div class="muted">Thumbnail testing, short-form optimization, and hook-first scripts.</div>
+          </div>
+        </div>
+
+        <a class="cta" href="#contact">Hire / Contact Me</a>
+
+        <div style="margin-top:18px">
+          <h4 style="margin:0 0 8px 0">Experience</h4>
+          <div class="muted">3+ years — Freelance & YouTube (Azhan Creates). ICS graduate with a strong background in practical design and content production.</div>
+        </div>
+
+      </div>
+
+      <aside class="card">
+        <h3 style="margin-top:0">Quick Info</h3>
+        <p class="muted"><strong>Email</strong><br><a href="mailto:azhan60ala@gmail.com" style="color:var(--accent);text-decoration:none">azhan60ala@gmail.com</a></p>
+        <p class="muted"><strong>Brand</strong><br>Azhan Creates</p>
+        <p class="muted"><strong>Availability</strong><br>Open for freelance & collaborations</p>
+
+        <div style="margin-top:12px">
+          <h4 style="margin:0 0 6px 0">Skills</h4>
+          <div class="muted">Graphic Design • Video Editing • Thumbnails • Motion • HTML/CSS • Figma • Premiere Pro • After Effects</div>
+        </div>
+
+        <div style="margin-top:12px">
+          <h4 style="margin:0 0 6px 0">Follow</h4>
+          <div class="social"><a href="#">YouTube</a> <a href="#">Instagram</a> <a href="#">Behance</a></div>
+        </div>
+      </aside>
+    </section>
+
+    <section id="portfolio" style="margin-top:22px">
+      <div class="card">
+        <div style="display:flex;justify-content:space-between;align-items:center"><h2 style="margin:0">Selected Work</h2><a href="#contact" class="cta" style="padding:8px 12px">Request a Quote</a></div>
+        <div class="portfolio-grid" style="margin-top:12px">
+          <div class="project">
+            <img src="https://via.placeholder.com/600x360?text=Project+1" alt="Project 1">
+            <div class="p-body"><strong>Viral Short — Dancing Cat</strong><div class="muted">Thumbnail, edit, captions — 1.2M views</div></div>
+          </div>
+          <div class="project">
+            <img src="https://via.placeholder.com/600x360?text=Project+2" alt="Project 2">
+            <div class="p-body"><strong>Brand Pack — Local Cafe</strong><div class="muted">Logo, poster set, social templates</div></div>
+          </div>
+          <div class="project">
+            <img src="https://via.placeholder.com/600x360?text=Project+3" alt="Project 3">
+            <div class="p-body"><strong>Portfolio Site</strong><div class="muted">Full HTML/CSS portfolio created for a designer</div></div>
+          </div>
+        </div>
+
+        <p class="muted" style="margin-top:12px">Want to see more case studies? Replace the placeholder images and descriptions with your real project files and links.</p>
+      </div>
+    </section>
+
+    <section id="services" style="margin-top:18px">
+      <div class="card">
+        <h2 style="margin-top:0">Services & Pricing (Sample)</h2>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:8px">
+          <div style="background:var(--card);padding:12px;border-radius:10px;border:1px solid rgba(255,255,255,0.02)"><strong>Thumbnail & Short</strong><div class="muted">Edit + thumbnail + captions — From $15</div></div>
+          <div style="background:var(--card);padding:12px;border-radius:10px;border:1px solid rgba(255,255,255,0.02)"><strong>Branding Pack</strong><div class="muted">Logo + 3 social templates — From $60</div></div>
+          <div style="background:var(--card);padding:12px;border-radius:10px;border:1px solid rgba(255,255,255,0.02)"><strong>Web / Landing</strong><div class="muted">Simple landing page — From $100</div></div>
+          <div style="background:var(--card);padding:12px;border-radius:10px;border:1px solid rgba(255,255,255,0.02)"><strong>Video Editing (Long)</strong><div class="muted">YouTube full edit — From $30</div></div>
+        </div>
+        <p class="muted" style="margin-top:10px">Note: Prices are sample starting points. Final quotes depend on scope and revisions.</p>
+      </div>
+    </section>
+
+    <section id="contact" style="margin-top:18px">
+      <div class="card">
+        <h2 style="margin-top:0">Contact & Hire</h2>
+        <p class="muted">Ready to start? Tell me about your project — timeline, budget, and what you need. I’ll reply with a plan and quote.</p>
+        <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:12px">
+          <a class="cta" href="mailto:azhan60ala@gmail.com?subject=Project%20Inquiry%20from%20Website">Email Me</a>
+          <a class="cta" href="#" style="background:transparent;border:1px solid rgba(255,255,255,0.06);color:var(--muted);">WhatsApp (replace link)</a>
+        </div>
+
+        <div style="margin-top:14px" class="muted">Or include links to your brief and files (Google Drive / WeTransfer) when you email.</div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="muted">© <strong>Azhan Creates</strong> — Designed & edited by Azhan • <a href="mailto:azhan60ala@gmail.com" style="color:var(--accent);text-decoration:none">azhan60ala@gmail.com</a></div>
+    </footer>
+  </div>
+</body>
+</html>
